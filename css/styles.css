@@ -1,0 +1,151 @@
+body {
+    font-family: Roboto;
+    text-decoration: none;
+    color: black;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+/* The top section of the page */
+.logo-word {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+    text-decoration: none;
+}
+
+.logo {
+    width: 115px;
+    height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-information:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-decoration: none;
+
+}
+
+.adress-information:hover {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+    text-decoration: none;
+}
+
+.title-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.title-button:hover {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+}
+
+/* Our goal */
+.title-our-goal {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.our-goal-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.our-goal-information {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/* Our team */
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.our-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/* Our portfolio */
+.our-portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+.our-portfolio-programs {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 120%;
+   letter-spacing: 0.02em;
+   color: var(--navy-blue);
+}
+
+.our-portfolio-programs-inf {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.page-information {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
