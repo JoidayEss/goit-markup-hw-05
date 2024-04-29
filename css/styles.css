@@ -198,13 +198,14 @@ ul, ol {
 }
 
 /* Our portfolio */
-.our-portfolio-title {
+.title-our-portfolio {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .our-portfolio-programs {
