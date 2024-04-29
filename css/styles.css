@@ -1,7 +1,8 @@
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     text-decoration: none;
-    color: black;
+    background-color: #FFFFFF;
 }
 
 ul, ol {
@@ -10,30 +11,61 @@ ul, ol {
 
 /* The top section of the page */
 .logo-word {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: #4d5ae5;
     text-decoration: none;
 }
 
 .logo {
-    width: 115px;
-    height: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 0.03em;
+    line-height: 117%;
+    font-size: 18px;
+    color: var(--navy-blue);
+}
+
+.nav-information {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .nav-information:hover {
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    line-height: 1.5;
+    color: #404bbf;
     text-decoration: none;
+    letter-spacing: 0.02em;
+}
 
+.nav-information:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #404bbf;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.adress-information {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
 
 .adress-information:hover {
@@ -41,8 +73,21 @@ ul, ol {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--ocean);
+    color: #404bbf;
     text-decoration: none;
+}
+
+.adress-information:focus {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+    text-decoration: none;
+}
+
+.title-background {
+    background-color: #2e2f42;
 }
 
 .title-text {
@@ -51,17 +96,40 @@ ul, ol {
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white);
+    color: #ffffff;
 }
 
-.title-button:hover {
-    font-family: var(--font-family);
+..title-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    color: var(--white);
+    color: #ffffff;
     cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+.title-button:hover {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #404BBF;
+}
+
+.title-button:focus {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #404BBF;
 }
 
 /* Our goal */
@@ -71,7 +139,7 @@ ul, ol {
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white);
+    color: #2e2f42;
 }
 
 .our-goal-title {
@@ -87,17 +155,26 @@ ul, ol {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
 /* Our team */
+.our-team-section{
+    background-color: #F4F4FD;
+}
+
 .our-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.our-name {
+    background-color: #FFFFFF;
 }
 
 .team-name {
@@ -113,7 +190,7 @@ ul, ol {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
 /* Our portfolio */
@@ -142,10 +219,14 @@ ul, ol {
     color: var(--slate);
 }
 
+.down-page {
+    background-color: #2e2f42;
+}
+
 .page-information {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: color: #f4f4fd;
 }
