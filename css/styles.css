@@ -29,7 +29,7 @@ ul, ol {
     letter-spacing: 0.03em;
     line-height: 117%;
     font-size: 18px;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .nav-information {
@@ -57,6 +57,10 @@ ul, ol {
     color: #404bbf;
     text-decoration: none;
     letter-spacing: 0.02em;
+}
+
+.teg-adress {
+    font-style: normal;
 }
 
 .adress-information {
@@ -99,7 +103,7 @@ ul, ol {
     color: #ffffff;
 }
 
-..title-button {
+.title-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -147,7 +151,7 @@ ul, ol {
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .our-goal-information {
@@ -182,7 +186,7 @@ ul, ol {
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .our-profession {
@@ -208,7 +212,7 @@ ul, ol {
    font-size: 20px;
    line-height: 120%;
    letter-spacing: 0.02em;
-   color: var(--navy-blue);
+   color: #2e2f42;
 }
 
 .our-portfolio-programs-inf {
@@ -223,10 +227,14 @@ ul, ol {
     background-color: #2e2f42;
 }
 
+.logo-infor {
+    color: #f4f4fd;
+}
+
 .page-information {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: color: #f4f4fd;
+    color: #f4f4fd;
 }
