@@ -3,6 +3,7 @@ body {
     color: #434455;
     text-decoration: none;
     background-color: #FFFFFF;
+    margin: 0;
 }
 
 ul, ol {
@@ -70,6 +71,9 @@ ul, ol {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .adress-information:hover {
@@ -177,10 +181,6 @@ ul, ol {
     text-transform: capitalize;
 }
 
-.our-name {
-    background-color: #FFFFFF;
-}
-
 .team-name {
     font-weight: 500;
     font-size: 20px;
@@ -238,4 +238,31 @@ ul, ol {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1158px;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.border-cards {
+    width: 360px;
+    height: 120px;
+    border-bottom: 7px double palevioletred;
+    padding: 32px 16px;
 }
