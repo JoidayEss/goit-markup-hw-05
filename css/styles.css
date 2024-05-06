@@ -21,6 +21,8 @@ ul, ol {
     color: #4d5ae5;
     text-decoration: none;
     margin-right: 76px;
+    padding: 24px 0;
+    display: inline-block;
 }
 
 .logo {
@@ -32,6 +34,7 @@ ul, ol {
     line-height: 117%;
     font-size: 18px;
     color: #2e2f42;
+    display: inline-block;
 }
 
 .nav-information {
@@ -359,17 +362,6 @@ li, ol, ul {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-}
-
-.logo-word-down {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--cloud);
-    margin-bottom: 16px;
 }
 
 img {
