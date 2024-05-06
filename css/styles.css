@@ -402,10 +402,6 @@ img {
     margin-bottom: 16px;
 }
 
-.container-one {
-    display: inline-block;
-}
-
 .container-two {
-    display: inline-block;
+    display: block;
 }
