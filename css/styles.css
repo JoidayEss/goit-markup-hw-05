@@ -21,6 +21,7 @@ ul, ol {
     color: #4d5ae5;
     text-decoration: none;
     margin-right: 76px;
+    display: inline-block;
 }
 
 .logo {
@@ -67,6 +68,8 @@ ul, ol {
     font-style: normal;
     padding-left: 40px;
     margin-right: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .adress-information {
@@ -157,7 +160,7 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    
+    margin-bottom: 8px;
 }
 
 .our-goal-title {
@@ -189,6 +192,8 @@ ul, ol {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
+    display: none;
 }
 
 .team-name {
@@ -197,6 +202,8 @@ ul, ol {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .our-profession {
@@ -205,6 +212,7 @@ ul, ol {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 /* Our portfolio */
@@ -216,6 +224,7 @@ ul, ol {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    display: none;
 }
 
 .our-portfolio-programs {
@@ -224,6 +233,7 @@ ul, ol {
    line-height: 120%;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   margin-bottom: 8px;
 }
 
 .our-portfolio-programs-inf {
@@ -236,6 +246,7 @@ ul, ol {
 
 .down-page {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .logo-infor {
@@ -297,4 +308,54 @@ li, ol, ul {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
+}
+
+.section1 {
+    padding: 188px 0;
+}
+
+.list-our-goal {
+    display: flex;
+    gap: 24px;
+}
+
+.visually-hidden {
+    position: absolute;
+    display: none;
+}
+
+.list1 {
+    width: calc((100% - 72px) / 4);
+}
+
+.list-our-team {
+    display: flex;
+    gap: 24px;
+}
+
+.our-name {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.list-name-team {
+    padding: 32px 0;
+}
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.list-programs {
+    width: calc((100% - 48px) / 3);
+}
+
+.programs-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
