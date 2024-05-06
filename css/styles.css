@@ -283,6 +283,7 @@ li, ol, ul {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 }
 
 .section {
@@ -400,4 +401,8 @@ img {
     padding: 24px 0;
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.container-two {
+    display: inline-block;
 }
