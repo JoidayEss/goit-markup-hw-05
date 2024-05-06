@@ -20,6 +20,7 @@ ul, ol {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .logo {
@@ -40,6 +41,8 @@ ul, ol {
     color: #2e2f42;
     text-decoration: none;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
 }
 
 .nav-information:hover {
@@ -62,6 +65,8 @@ ul, ol {
 
 .teg-adress {
     font-style: normal;
+    padding-left: 40px;
+    margin-right: 0;
 }
 
 .adress-information {
@@ -72,8 +77,6 @@ ul, ol {
     color: #434455;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .adress-information:hover {
@@ -105,6 +108,7 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .title-button {
@@ -116,6 +120,11 @@ ul, ol {
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .title-button:hover {
@@ -148,6 +157,7 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    
 }
 
 .our-goal-title {
@@ -253,6 +263,9 @@ li, ol, ul {
 
 .container {
     width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
 }
 
 .section {
@@ -265,4 +278,23 @@ li, ol, ul {
     height: 120px;
     border-bottom: 7px double palevioletred;
     padding: 32px 16px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.adress-information-title {
+    display: flex;
+    gap: 40px;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
