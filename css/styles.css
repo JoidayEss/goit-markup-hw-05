@@ -257,6 +257,7 @@ ul, ol {
 .logo-infor {
     color: #f4f4fd;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .page-information {
@@ -399,4 +400,5 @@ img {
     margin-right: 76px;
     padding: 24px 0;
     display: inline-block;
+    margin-bottom: 16px;
 }
