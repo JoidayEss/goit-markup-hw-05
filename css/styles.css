@@ -69,10 +69,8 @@ ul, ol {
 
 .teg-adress {
     font-style: normal;
-    padding-left: 40px;
     margin-right: 0;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    margin-left: auto;
 }
 
 .adress-information {
@@ -110,11 +108,14 @@ ul, ol {
 .title-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .title-button {
@@ -131,6 +132,9 @@ ul, ol {
     height: 56px;
     border: none;
     border-radius: 4px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-button:hover {
@@ -197,7 +201,6 @@ ul, ol {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
-    display: none;
 }
 
 .team-name {
@@ -223,13 +226,12 @@ ul, ol {
 .title-our-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
-    display: none;
 }
 
 .our-portfolio-programs {
@@ -256,16 +258,16 @@ ul, ol {
 
 .logo-infor {
     color: #f4f4fd;
-    margin-bottom: 16px;
-    display: inline-block;
 }
 
 .page-information {
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    max-height: 74px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -313,12 +315,16 @@ li, ol, ul {
 .navigation {
     display: flex;
     align-items: center;
+}
+
+.navigation-list {
+    display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .section-one {
     padding: 188px 0;
+    background-color: #2E2F42;
 }
 
 .list-our-goal {
@@ -370,10 +376,6 @@ img {
     display: block;
 }
 
-.list-navigation {
-    padding: 24px 0;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -404,4 +406,9 @@ img {
 
 .header-container {
     display: flex;
+    align-items: center;
+}
+
+.section-two {
+    background-color: #F4F4FD;
 }
