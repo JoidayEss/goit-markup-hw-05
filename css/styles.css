@@ -944,22 +944,11 @@ input:checked + .label-user-privacy > .user-privacy-span {
     fill: #F4F4FD;
 }
 
-.button-model:hover > .modal {
+button:hover>svg,
+button:focus>svg {
     fill: #ffffff;
 }
 
-.button-model:hover > .modal-container {
-    fill: #ffffff;
-}
-
-.button-model:focus > .modal {
-    fill: #ffffff;
-}
-
-.button-model:focus > .modal-container {
-    fill: #ffffff;
-}
-
-.input-label:focus > .svg-modal-input {
+.input-label:focus .svg-modal-input {
     fill: #4D5AE5;
 }
