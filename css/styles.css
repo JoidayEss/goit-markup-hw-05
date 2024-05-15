@@ -738,7 +738,6 @@ input {
     width: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
 }
 
 .modal {
@@ -749,9 +748,10 @@ input {
     width: 408px;
     min-height: 584px;
     background: #fcfcfc;
-    box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .button-model {
@@ -810,7 +810,7 @@ input {
 .form-label {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
     display: block;
@@ -857,7 +857,7 @@ input {
     height: 120px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -879,7 +879,7 @@ input {
 
 .label-user-privacy {
     font-size: 12px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
 }
@@ -923,4 +923,15 @@ input {
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-checkmark {
+    fill: #2E2F42;
+}
+
+.user-privacy-span .input-form-privacy:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
