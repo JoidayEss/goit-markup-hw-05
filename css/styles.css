@@ -949,6 +949,6 @@ button:focus>svg {
     fill: #ffffff;
 }
 
-.input-label:focus .svg-modal-input {
+.input-label:focus>svg {
     fill: #4D5AE5;
 }
