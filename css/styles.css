@@ -719,10 +719,6 @@ input {
 }
 
 .svg-modal {
-    position: absolute;
-    left: 16px;
-    transform: translateY(-50%);
-    top: 50%;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -949,6 +945,20 @@ button:focus>svg {
     fill: #ffffff;
 }
 
-input:focus>svg {
+input:focus + svg {
     fill: #4D5AE5;
+}
+
+.button-form-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #2E2F42;
+    font-weight: 400;
 }
