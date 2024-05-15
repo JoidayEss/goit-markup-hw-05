@@ -904,6 +904,10 @@ input {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.input-form-privacy {
+    fill: transparent;
+}
+
 .input-form-privacy:checked .user-privacy-span {
     background-color: #404bbf;
     border: none;
@@ -928,6 +932,8 @@ input {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
+    border-radius: 4px;
 }
 
 .icon-checkmark {
@@ -961,4 +967,8 @@ textarea::placeholder {
     letter-spacing: 0.04em;
     color: #2E2F42;
     font-weight: 400;
+}
+
+.is-open {
+    opacity: ;
 }
