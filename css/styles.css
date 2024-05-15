@@ -943,3 +943,23 @@ input:checked + .label-user-privacy > .user-privacy-span {
     border: none;
     fill: #F4F4FD;
 }
+
+.button-model:hover > .modal {
+    fill: #ffffff;
+}
+
+.button-model:hover > .modal-container {
+    fill: #ffffff;
+}
+
+.button-model:focus > .modal {
+    fill: #ffffff;
+}
+
+.button-model:focus > .modal-container {
+    fill: #ffffff;
+}
+
+.input-label:focus > .svg-modal-input {
+    fill: #4D5AE5;
+}
