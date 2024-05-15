@@ -776,9 +776,17 @@ input {
     border: none;
 }
 
-.button-model:focus {
+.button-model:hover {
     background-color: #404bbf;
     border: none;
+}
+
+.button-model:hover .modal {
+    fill: #ffffff
+}
+
+.button-model:focus .modal {
+    fill: #ffffff
 }
 
 .svg-modal {
@@ -930,8 +938,12 @@ input {
     fill: #2E2F42;
 }
 
-.user-privacy-span .input-form-privacy:checked {
+.input-form-privacy:checked .user-privacy-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+
+.input-label:focus .svg-modal-input {
+    fill: #4D5AE5;
 }
