@@ -938,22 +938,8 @@ input {
     fill: #2E2F42;
 }
 
-.input-form-privacy:checked .user-privacy-span {
+input:checked + .label-user-privacy > .user-privacy-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-}
-
-.user-privacy-span .input-form-privacy:checked {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
-
-.input-label:focus .svg-modal-input {
-    fill: #4D5AE5;
-}
-
-.svg-modal-input .input-label:focus {
-    fill: #4D5AE5;
 }
